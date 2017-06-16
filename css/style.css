@@ -1,0 +1,134 @@
+/*declare some heights*/
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    height: 229px;
+}
+
+
+#services-card-container {
+    height: 692px;
+    width: 90%;
+    margin: 31px auto;
+}
+
+footer {
+    background-color: black;
+    height: 202px;
+    color: white;
+}
+
+
+
+/*service cards*/
+.services-card {
+    width:551px;
+    height: 316px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.services-figure {
+    font-family: 'Roboto Slab';
+    height: 67px;
+}
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.services-description {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+#services-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/*header styles*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    font-family: 'Roboto Slab';
+}
+
+
+h1 {
+    margin-bottom: 0;
+    font-size: 38px;
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 0; font-size: 1.2em;
+    text-align: center;
+    font-size: 22px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.copy {
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer-contact-info{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  text-align: center;
+}
+
+#all-rights-reserved {
+    font-size:12px;}
+
+
+
+
+
+
+
+
