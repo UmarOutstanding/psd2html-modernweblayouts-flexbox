@@ -1,0 +1,138 @@
+<style>
+    *
+    {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body, html {
+        background: teal;
+        font-size: 18px;
+        height: 692px;
+    }
+    header {
+        background: crimson;
+          position: relative;
+          left: 0px;
+          top: 0px;
+        width: 100vw;
+        
+/*  width: 1287px;*/
+          height: 229px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+#headings {
+    position: relative;
+    /*top: 59px;*/
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.company {
+  font-size: 2rem;
+  font-family: "Roboto Slab";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.661;
+}
+    .NAME_HERE {
+  font-size: 1.2rem;
+  font-family: "Roboto Slab";
+  color: rgb(255, 255, 255);
+  line-height: 1.697;
+  text-align: center;
+  z-index: 11;
+position: relative;
+        top: -22;
+}
+    nav {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        text-transform: uppercase;
+        line-height: 1;    
+    }
+nav a{
+  font-size: 0.8em;
+  font-family: "Roboto Slab";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1;
+  z-index: 8;
+}
+.Background_Options {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 1287px;
+  height: 229px;
+  z-index: 7;
+}
+.Wood_Texture_Image {
+  background-image: url("Wood Texture Image.png");
+  opacity: 0.702;
+  position: relative;
+  left: 1px;
+  top: 0px;
+  width: 1280px;
+  height: 229px;
+  z-index: 4;
+}
+.Adjust_Color_Overlay {
+  background-color: rgb(74, 73, 74);
+  position: relative;
+  left: 0px;
+  top: 38px;
+  width: 1287px;
+  height: 191px;
+  z-index: 3;
+}
+
+    #main-container {
+        width: 95.75vw;
+        height: 20vh;
+        background: cyan;
+        margin: auto;
+    }
+</style>
+    <header>
+        <div id="headings">
+         <h1 class="company">Company</h1>
+        <h2 class="name_here">Name Here</h2>
+        </div> 
+      
+        <nav>
+            <a href="#">Products</a> |
+            <a href="#">Services</a>
+        </nav>
+                     
+
+    </header>
+<main>
+    <style>
+        .columns {
+            margin: -0.75em;
+        }
+        .column {
+            color:white;
+            background: black;
+        }
+    </style>
+        <div id="flex-content" class="columns">
+            <div class="col-xs-6">1
+            </div>
+            <div class="col-xs-6">2
+            </div>
+            <div class="col-xs-6">3
+            </div>
+            <div class="col-xs-6">4
+            </div>
+        </div>
+</main>
